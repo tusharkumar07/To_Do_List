@@ -1,0 +1,58 @@
+
+.container{
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    height: 100vh;
+    background-color:#c7ecee ;
+}
+.main{
+    background-color:white;
+    height: 30em;
+    width: 50em;
+    position: relative;
+    top: 10%;
+    left: 20%;
+}
+#iname{
+    margin: 2em;
+    width: 90%;
+    height: 2em;
+    padding-left: 1em;
+    font-size: large;
+}
+.ulist li{
+    padding-top: 0.4em;
+    padding-left:1em;
+    list-style-type: none;
+    width: 95.5%;
+    height: 2.1em;
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: #95afc0;
+    color: white;
+    margin-top: 1em;
+}
+#unorder li button{
+    position: absolute;
+    left: 39em;
+    color: green;
+    font-weight: 200;
+    font-size: large;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+.ulist{
+    position: relative;
+    top: -1.5em;
+}
+.done{
+    text-decoration: line-through;
+    background-color: #95afc0;
+    color: black;
+}
+
+.heading{
+    position: absolute;
+    left: 19em;
+}
